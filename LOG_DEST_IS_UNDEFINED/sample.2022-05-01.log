@@ -1,0 +1,49 @@
+2022-05-01 12:54:34.255 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 6
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-05-01 12:54:34.473 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-05-01 12:54:35.486 [main] INFO  Application - Application auto-reloaded in 1.011 seconds.
+2022-05-01 12:54:35.898 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-05-01 12:55:39.389 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-05-01 12:55:42.456 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-05-01 13:33:14.805 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-05-01 13:34:09.350 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-05-01 14:58:04.815 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-05-01 15:58:08.806 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 6
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-05-01 15:58:08.954 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-05-01 15:58:09.967 [main] INFO  Application - Application auto-reloaded in 0.997 seconds.
+2022-05-01 15:58:10.257 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-05-01 16:00:05.470 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-05-01 16:00:09.223 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC

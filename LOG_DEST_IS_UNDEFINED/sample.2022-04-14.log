@@ -1,0 +1,2331 @@
+2022-04-14 00:02:13.638 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 00:02:13.736 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 00:02:14.344 [main] INFO  Application - Application auto-reloaded in 0.607 seconds.
+2022-04-14 00:02:14.495 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 00:02:17.901 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT COUNT(*) FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-14 00:11:56.896 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 00:11:57.001 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 00:11:57.628 [main] INFO  Application - Application auto-reloaded in 0.625 seconds.
+2022-04-14 00:11:57.763 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 00:13:33.540 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 00:13:33.660 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 00:13:34.334 [main] INFO  Application - Application auto-reloaded in 0.672 seconds.
+2022-04-14 00:13:34.505 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 00:13:38.383 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'
+FROM com.example.data.BookRatingTable@9e10814b
+GROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date);
+2022-04-14 00:13:38.386 [eventLoopGroupProxy-4-1] WARN  Exposed - Transaction attempt #0 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'
+FROM com.example.data.BookRatingTable@9e10814b
+GROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date);
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:120)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:115)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.BookRatingRepository.getBookCountByYear(BookRating.kt:115)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invokeSuspend(BookRating.kt:76)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BaseKt.callResponse(Base.kt:36)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invokeSuspend(BookRating.kt:73)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.routing.Routing.executeResult(Routing.kt:171)
+	at io.ktor.server.routing.Routing.interceptor(Routing.kt:47)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:122)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invokeSuspend(NettyApplicationCallHandler.kt:121)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at io.ktor.server.netty.NettyApplicationCallHandler.handleRequest(NettyApplicationCallHandler.kt:41)
+	at io.ktor.server.netty.NettyApplicationCallHandler.channelRead(NettyApplicationCallHandler.kt:33)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:370)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda-1$lambda-0(NettyApplicationEngine.kt:258)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 83 common frames omitted
+2022-04-14 00:13:38.388 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'
+FROM com.example.data.BookRatingTable@9e10814b
+GROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date);
+2022-04-14 00:13:38.389 [eventLoopGroupProxy-4-1] WARN  Exposed - Transaction attempt #1 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'
+FROM com.example.data.BookRatingTable@9e10814b
+GROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date);
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:120)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:115)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.BookRatingRepository.getBookCountByYear(BookRating.kt:115)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invokeSuspend(BookRating.kt:76)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BaseKt.callResponse(Base.kt:36)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invokeSuspend(BookRating.kt:73)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.routing.Routing.executeResult(Routing.kt:171)
+	at io.ktor.server.routing.Routing.interceptor(Routing.kt:47)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:122)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invokeSuspend(NettyApplicationCallHandler.kt:121)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at io.ktor.server.netty.NettyApplicationCallHandler.handleRequest(NettyApplicationCallHandler.kt:41)
+	at io.ktor.server.netty.NettyApplicationCallHandler.channelRead(NettyApplicationCallHandler.kt:33)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:370)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda-1$lambda-0(NettyApplicationEngine.kt:258)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 83 common frames omitted
+2022-04-14 00:13:38.390 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'
+FROM com.example.data.BookRatingTable@9e10814b
+GROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date);
+2022-04-14 00:13:38.391 [eventLoopGroupProxy-4-1] WARN  Exposed - Transaction attempt #2 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'
+FROM com.example.data.BookRatingTable@9e10814b
+GROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date);
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:120)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:115)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.BookRatingRepository.getBookCountByYear(BookRating.kt:115)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invokeSuspend(BookRating.kt:76)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BaseKt.callResponse(Base.kt:36)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invokeSuspend(BookRating.kt:73)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.routing.Routing.executeResult(Routing.kt:171)
+	at io.ktor.server.routing.Routing.interceptor(Routing.kt:47)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:122)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invokeSuspend(NettyApplicationCallHandler.kt:121)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at io.ktor.server.netty.NettyApplicationCallHandler.handleRequest(NettyApplicationCallHandler.kt:41)
+	at io.ktor.server.netty.NettyApplicationCallHandler.channelRead(NettyApplicationCallHandler.kt:33)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:370)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda-1$lambda-0(NettyApplicationEngine.kt:258)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 83 common frames omitted
+2022-04-14 00:14:54.255 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 00:14:54.368 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 00:14:54.990 [main] INFO  Application - Application auto-reloaded in 0.621 seconds.
+2022-04-14 00:14:55.122 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 00:15:01.254 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'FROM com.example.data.BookRatingTable@9e10814bGROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date)
+2022-04-14 00:15:01.256 [eventLoopGroupProxy-4-1] WARN  Exposed - Transaction attempt #0 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'FROM com.example.data.BookRatingTable@9e10814bGROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:120)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:115)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.BookRatingRepository.getBookCountByYear(BookRating.kt:115)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invokeSuspend(BookRating.kt:76)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BaseKt.callResponse(Base.kt:36)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invokeSuspend(BookRating.kt:73)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.routing.Routing.executeResult(Routing.kt:171)
+	at io.ktor.server.routing.Routing.interceptor(Routing.kt:47)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:122)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invokeSuspend(NettyApplicationCallHandler.kt:121)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at io.ktor.server.netty.NettyApplicationCallHandler.handleRequest(NettyApplicationCallHandler.kt:41)
+	at io.ktor.server.netty.NettyApplicationCallHandler.channelRead(NettyApplicationCallHandler.kt:33)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:370)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda-1$lambda-0(NettyApplicationEngine.kt:258)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 83 common frames omitted
+2022-04-14 00:15:01.257 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'FROM com.example.data.BookRatingTable@9e10814bGROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date)
+2022-04-14 00:15:01.257 [eventLoopGroupProxy-4-1] WARN  Exposed - Transaction attempt #1 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'FROM com.example.data.BookRatingTable@9e10814bGROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:120)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:115)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.BookRatingRepository.getBookCountByYear(BookRating.kt:115)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invokeSuspend(BookRating.kt:76)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BaseKt.callResponse(Base.kt:36)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invokeSuspend(BookRating.kt:73)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.routing.Routing.executeResult(Routing.kt:171)
+	at io.ktor.server.routing.Routing.interceptor(Routing.kt:47)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:122)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invokeSuspend(NettyApplicationCallHandler.kt:121)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at io.ktor.server.netty.NettyApplicationCallHandler.handleRequest(NettyApplicationCallHandler.kt:41)
+	at io.ktor.server.netty.NettyApplicationCallHandler.channelRead(NettyApplicationCallHandler.kt:33)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:370)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda-1$lambda-0(NettyApplicationEngine.kt:258)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 83 common frames omitted
+2022-04-14 00:15:01.258 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'FROM com.example.data.BookRatingTable@9e10814bGROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date)
+2022-04-14 00:15:01.259 [eventLoopGroupProxy-4-1] WARN  Exposed - Transaction attempt #2 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'FROM com.example.data.BookRatingTable@9e10814bGROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:120)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:115)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.BookRatingRepository.getBookCountByYear(BookRating.kt:115)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invokeSuspend(BookRating.kt:76)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BaseKt.callResponse(Base.kt:36)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invokeSuspend(BookRating.kt:73)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.routing.Routing.executeResult(Routing.kt:171)
+	at io.ktor.server.routing.Routing.interceptor(Routing.kt:47)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:122)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invokeSuspend(NettyApplicationCallHandler.kt:121)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at io.ktor.server.netty.NettyApplicationCallHandler.handleRequest(NettyApplicationCallHandler.kt:41)
+	at io.ktor.server.netty.NettyApplicationCallHandler.channelRead(NettyApplicationCallHandler.kt:33)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:370)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda-1$lambda-0(NettyApplicationEngine.kt:258)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 83 common frames omitted
+2022-04-14 10:52:26.272 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 10:52:26.409 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 10:52:27.323 [main] INFO  Application - Application auto-reloaded in 0.912 seconds.
+2022-04-14 10:52:27.548 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 10:56:08.190 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'FROM com.example.data.BookRatingTable@9e10814bGROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date)
+2022-04-14 10:56:08.193 [eventLoopGroupProxy-4-1] WARN  Exposed - Transaction attempt #0 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'FROM com.example.data.BookRatingTable@9e10814bGROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:120)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:115)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.BookRatingRepository.getBookCountByYear(BookRating.kt:115)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invokeSuspend(BookRating.kt:76)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BaseKt.callResponse(Base.kt:36)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invokeSuspend(BookRating.kt:73)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.routing.Routing.executeResult(Routing.kt:171)
+	at io.ktor.server.routing.Routing.interceptor(Routing.kt:47)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:122)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invokeSuspend(NettyApplicationCallHandler.kt:121)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at io.ktor.server.netty.NettyApplicationCallHandler.handleRequest(NettyApplicationCallHandler.kt:41)
+	at io.ktor.server.netty.NettyApplicationCallHandler.channelRead(NettyApplicationCallHandler.kt:33)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:370)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda-1$lambda-0(NettyApplicationEngine.kt:258)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 83 common frames omitted
+2022-04-14 10:56:08.194 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'FROM com.example.data.BookRatingTable@9e10814bGROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date)
+2022-04-14 10:56:08.195 [eventLoopGroupProxy-4-1] WARN  Exposed - Transaction attempt #1 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'FROM com.example.data.BookRatingTable@9e10814bGROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:120)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:115)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.BookRatingRepository.getBookCountByYear(BookRating.kt:115)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invokeSuspend(BookRating.kt:76)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BaseKt.callResponse(Base.kt:36)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invokeSuspend(BookRating.kt:73)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.routing.Routing.executeResult(Routing.kt:171)
+	at io.ktor.server.routing.Routing.interceptor(Routing.kt:47)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:122)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invokeSuspend(NettyApplicationCallHandler.kt:121)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at io.ktor.server.netty.NettyApplicationCallHandler.handleRequest(NettyApplicationCallHandler.kt:41)
+	at io.ktor.server.netty.NettyApplicationCallHandler.channelRead(NettyApplicationCallHandler.kt:33)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:370)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda-1$lambda-0(NettyApplicationEngine.kt:258)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 83 common frames omitted
+2022-04-14 10:56:08.196 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'FROM com.example.data.BookRatingTable@9e10814bGROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date)
+2022-04-14 10:56:08.196 [eventLoopGroupProxy-4-1] WARN  Exposed - Transaction attempt #2 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): SELECT count(com.example.data.BookRatingTable.rating), strftime('%Y-%m', com.example.data.BookRatingTable.create_date) as 'year-month'FROM com.example.data.BookRatingTable@9e10814bGROUP BY strftime('%Y-%m', com.example.data.BookRatingTable.create_date)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:120)
+	at com.example.data.BookRatingRepository$getBookCountByYear$1.invoke(BookRating.kt:115)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.BookRatingRepository.getBookCountByYear(BookRating.kt:115)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invokeSuspend(BookRating.kt:76)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7$1.invoke(BookRating.kt)
+	at com.example.routing.BaseKt.callResponse(Base.kt:36)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invokeSuspend(BookRating.kt:73)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at com.example.routing.BookRatingKt$routingBookRating$1$7.invoke(BookRating.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.routing.Routing$executeResult$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.routing.Routing.executeResult(Routing.kt:171)
+	at io.ktor.server.routing.Routing.interceptor(Routing.kt:47)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invokeSuspend(Routing.kt:122)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.server.routing.Routing$Plugin$install$1.invoke(Routing.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invokeSuspend(BaseApplicationEngine.kt:122)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.server.engine.BaseApplicationEngineKt$installDefaultTransformationChecker$1.invoke(BaseApplicationEngine.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invokeSuspend(DefaultEnginePipeline.kt:118)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.server.engine.DefaultEnginePipelineKt$defaultEnginePipeline$1.invoke(DefaultEnginePipeline.kt)
+	at io.ktor.util.pipeline.SuspendFunctionGun.loop(SuspendFunctionGun.kt:127)
+	at io.ktor.util.pipeline.SuspendFunctionGun.proceed(SuspendFunctionGun.kt:85)
+	at io.ktor.util.pipeline.SuspendFunctionGun.execute$ktor_utils(SuspendFunctionGun.kt:105)
+	at io.ktor.util.pipeline.Pipeline.execute(Pipeline.kt:83)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invokeSuspend(Pipeline.kt:471)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1$invokeSuspend$$inlined$execute$1.invoke(Pipeline.kt)
+	at io.ktor.util.debug.ContextUtilsKt.addToContextInDebugMode(ContextUtils.kt:18)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invokeSuspend(NettyApplicationCallHandler.kt:121)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at io.ktor.server.netty.NettyApplicationCallHandler$handleRequest$1.invoke(NettyApplicationCallHandler.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startCoroutineUndispatched(Undispatched.kt:55)
+	at kotlinx.coroutines.CoroutineStart.invoke(CoroutineStart.kt:112)
+	at kotlinx.coroutines.AbstractCoroutine.start(AbstractCoroutine.kt:126)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.launch(Builders.common.kt:56)
+	at kotlinx.coroutines.BuildersKt.launch(Unknown Source)
+	at io.ktor.server.netty.NettyApplicationCallHandler.handleRequest(NettyApplicationCallHandler.kt:41)
+	at io.ktor.server.netty.NettyApplicationCallHandler.channelRead(NettyApplicationCallHandler.kt:33)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+	at io.netty.channel.AbstractChannelHandlerContext.access$600(AbstractChannelHandlerContext.java:61)
+	at io.netty.channel.AbstractChannelHandlerContext$7.run(AbstractChannelHandlerContext.java:370)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:164)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:469)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:503)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.ktor.server.netty.EventLoopGroupProxy$Companion.create$lambda-1$lambda-0(NettyApplicationEngine.kt:258)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 83 common frames omitted
+2022-04-14 18:22:16.185 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 18:22:16.280 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 18:22:16.965 [main] INFO  Application - Application auto-reloaded in 0.683 seconds.
+2022-04-14 18:22:17.149 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 18:22:36.435 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT COUNT(STRFTIME('%m',BookHistory.create_date)), BookHistory.create_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022 GROUP BY BookHistory.create_date
+2022-04-14 18:30:31.600 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 18:30:31.698 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 18:30:32.326 [main] INFO  Application - Application auto-reloaded in 0.627 seconds.
+2022-04-14 18:30:32.492 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 18:30:40.508 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT COUNT(*) FROM (SELECT BookHistory.id BookHistory_id, BookHistory.title BookHistory_title, BookHistory.author BookHistory_author, BookHistory.summary BookHistory_summary, BookHistory.isbn BookHistory_isbn, BookHistory.image BookHistory_image, BookHistory.rating BookHistory_rating, BookHistory.publisher BookHistory_publisher, BookHistory.description BookHistory_description, BookHistory.create_date BookHistory_create_date, BookHistory.update_date BookHistory_update_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022 GROUP BY STRFTIME('%m',BookHistory.create_date)) subquery
+2022-04-14 18:32:31.671 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 18:32:31.756 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 18:32:32.287 [main] INFO  Application - Application auto-reloaded in 0.529 seconds.
+2022-04-14 18:32:32.428 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 18:32:33.697 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022 GROUP BY STRFTIME('%m',BookHistory.create_date)
+2022-04-14 18:33:12.713 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 18:33:12.804 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 18:33:13.424 [main] INFO  Application - Application auto-reloaded in 0.619 seconds.
+2022-04-14 18:33:13.565 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 18:33:18.436 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-14 18:33:45.550 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 18:33:45.649 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 18:33:46.310 [main] INFO  Application - Application auto-reloaded in 0.658 seconds.
+2022-04-14 18:33:46.464 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 18:33:49.258 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-14 18:34:49.714 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 18:34:49.813 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 18:34:50.444 [main] INFO  Application - Application auto-reloaded in 0.629 seconds.
+2022-04-14 18:34:50.579 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 18:34:56.431 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-14 18:35:42.879 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 18:35:42.976 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 18:35:43.550 [main] INFO  Application - Application auto-reloaded in 0.572 seconds.
+2022-04-14 18:35:43.702 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 18:35:46.528 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-14 18:37:19.531 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 18:37:19.619 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 18:37:20.163 [main] INFO  Application - Application auto-reloaded in 0.542 seconds.
+2022-04-14 18:37:20.294 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 18:37:23.075 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-14 18:38:21.629 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8935213543 9788935213542'
+2022-04-14 18:40:14.588 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 18:40:14.679 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 18:40:15.271 [main] INFO  Application - Application auto-reloaded in 0.591 seconds.
+2022-04-14 18:40:15.430 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 18:40:17.946 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-14 18:41:09.997 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 18:41:10.094 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 18:41:10.642 [main] INFO  Application - Application auto-reloaded in 0.546 seconds.
+2022-04-14 18:41:10.777 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 18:41:18.135 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-14 20:24:48.664 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 20:24:48.759 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 20:24:49.346 [main] INFO  Application - Application auto-reloaded in 0.585 seconds.
+2022-04-14 20:24:49.485 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 20:26:25.204 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 20:26:25.302 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 20:26:25.927 [main] INFO  Application - Application auto-reloaded in 0.624 seconds.
+2022-04-14 20:26:26.063 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 20:26:29.329 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-14 20:32:42.355 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 20:32:42.446 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 20:32:43.065 [main] INFO  Application - Application auto-reloaded in 0.618 seconds.
+2022-04-14 20:32:43.207 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 20:32:45.703 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-14 20:33:18.789 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 20:33:18.884 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 20:33:19.545 [main] INFO  Application - Application auto-reloaded in 0.66 seconds.
+2022-04-14 20:33:19.689 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 20:33:26.960 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-14 20:56:11.489 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.update_date >= '2022-01-01 00:00:00.000') AND (BookHistory.update_date <= '2022-12-31 23:59:59.000')
+2022-04-14 20:58:55.464 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 20:58:55.559 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 20:58:56.157 [main] INFO  Application - Application auto-reloaded in 0.597 seconds.
+2022-04-14 20:58:56.305 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 20:58:59.459 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000')
+2022-04-14 21:01:04.408 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:01:04.498 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:01:05.078 [main] INFO  Application - Application auto-reloaded in 0.579 seconds.
+2022-04-14 21:01:05.226 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:01:10.336 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000')
+2022-04-14 21:02:49.597 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:02:49.703 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:02:50.396 [main] INFO  Application - Application auto-reloaded in 0.691 seconds.
+2022-04-14 21:02:50.575 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:02:54.488 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:04:57.235 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:04:57.329 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:04:57.914 [main] INFO  Application - Application auto-reloaded in 0.583 seconds.
+2022-04-14 21:04:58.066 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:06:15.310 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:06:15.445 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:06:16.000 [main] INFO  Application - Application auto-reloaded in 0.554 seconds.
+2022-04-14 21:06:16.131 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:13:16.187 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:13:16.290 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:13:16.902 [main] INFO  Application - Application auto-reloaded in 0.61 seconds.
+2022-04-14 21:13:17.035 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:13:20.592 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT COUNT(*) FROM (SELECT BookHistory.id BookHistory_id, BookHistory.title BookHistory_title, BookHistory.author BookHistory_author, BookHistory.summary BookHistory_summary, BookHistory.isbn BookHistory_isbn, BookHistory.image BookHistory_image, BookHistory.rating BookHistory_rating, BookHistory.publisher BookHistory_publisher, BookHistory.description BookHistory_description, BookHistory.create_date BookHistory_create_date, BookHistory.update_date BookHistory_update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') GROUP BY BookHistory.create_date) subquery
+2022-04-14 21:16:05.017 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:16:05.119 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:16:05.744 [main] INFO  Application - Application auto-reloaded in 0.624 seconds.
+2022-04-14 21:16:05.886 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:16:09.147 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT COUNT(*) FROM (SELECT BookHistory.id BookHistory_id, BookHistory.title BookHistory_title, BookHistory.author BookHistory_author, BookHistory.summary BookHistory_summary, BookHistory.isbn BookHistory_isbn, BookHistory.image BookHistory_image, BookHistory.rating BookHistory_rating, BookHistory.publisher BookHistory_publisher, BookHistory.description BookHistory_description, BookHistory.create_date BookHistory_create_date, BookHistory.update_date BookHistory_update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') GROUP BY STRFTIME('%m',BookHistory.create_date)) subquery
+2022-04-14 21:17:44.183 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:17:44.275 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:17:44.881 [main] INFO  Application - Application auto-reloaded in 0.605 seconds.
+2022-04-14 21:17:45.025 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:17:53.549 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') GROUP BY STRFTIME('%m',BookHistory.create_date)
+2022-04-14 21:18:20.036 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:18:20.131 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:18:20.707 [main] INFO  Application - Application auto-reloaded in 0.575 seconds.
+2022-04-14 21:18:20.845 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:18:24.921 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:22:47.436 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:22:47.532 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:22:48.330 [main] INFO  Application - Application auto-reloaded in 0.796 seconds.
+2022-04-14 21:22:48.479 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:22:50.930 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:22:50.962 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:30:56.536 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:30:56.629 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:30:57.287 [main] INFO  Application - Application auto-reloaded in 0.657 seconds.
+2022-04-14 21:30:57.438 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:31:00.715 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:31:00.755 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:32:27.866 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:32:27.965 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:32:28.675 [main] INFO  Application - Application auto-reloaded in 0.709 seconds.
+2022-04-14 21:32:28.869 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:32:33.069 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:33:21.069 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:33:21.169 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:33:22.000 [main] INFO  Application - Application auto-reloaded in 0.829 seconds.
+2022-04-14 21:33:22.161 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:33:28.052 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:33:28.083 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:33:52.629 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:33:52.745 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:33:53.535 [main] INFO  Application - Application auto-reloaded in 0.788 seconds.
+2022-04-14 21:33:53.744 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:33:58.640 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:33:58.672 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:42:18.239 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:42:18.368 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:42:19.156 [main] INFO  Application - Application auto-reloaded in 0.787 seconds.
+2022-04-14 21:42:19.312 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:42:39.144 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:42:39.308 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:42:39.874 [main] INFO  Application - Application auto-reloaded in 0.564 seconds.
+2022-04-14 21:42:40.004 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:42:47.151 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:43:43.420 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:43:43.530 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:43:44.258 [main] INFO  Application - Application auto-reloaded in 0.726 seconds.
+2022-04-14 21:43:44.395 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:43:48.279 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:46:35.342 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:46:35.461 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:46:36.073 [main] INFO  Application - Application auto-reloaded in 0.611 seconds.
+2022-04-14 21:46:36.214 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:46:37.878 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:47:33.899 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:47:34.003 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:47:34.690 [main] INFO  Application - Application auto-reloaded in 0.685 seconds.
+2022-04-14 21:47:34.888 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:47:37.722 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:52:02.691 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:52:02.841 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:52:03.439 [main] INFO  Application - Application auto-reloaded in 0.596 seconds.
+2022-04-14 21:52:03.582 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:52:05.777 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:53:47.434 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:53:47.531 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:53:48.362 [main] INFO  Application - Application auto-reloaded in 0.829 seconds.
+2022-04-14 21:53:48.652 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:53:51.562 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:55:22.742 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:55:22.836 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:55:23.469 [main] INFO  Application - Application auto-reloaded in 0.632 seconds.
+2022-04-14 21:55:23.599 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:55:31.329 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 21:58:28.567 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 21:58:28.681 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 21:58:29.444 [main] INFO  Application - Application auto-reloaded in 0.761 seconds.
+2022-04-14 21:58:29.642 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 21:58:31.333 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 22:01:11.344 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 22:01:11.452 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 22:01:12.091 [main] INFO  Application - Application auto-reloaded in 0.638 seconds.
+2022-04-14 22:01:12.229 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 22:01:23.004 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 22:01:29.962 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 22:02:07.138 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 22:02:07.234 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 22:02:07.966 [main] INFO  Application - Application auto-reloaded in 0.731 seconds.
+2022-04-14 22:02:08.170 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 22:02:15.938 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 22:02:56.854 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 22:02:56.968 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 22:02:57.708 [main] INFO  Application - Application auto-reloaded in 0.738 seconds.
+2022-04-14 22:02:57.899 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 22:03:06.595 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 22:06:05.379 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 22:06:05.500 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 22:06:06.253 [main] INFO  Application - Application auto-reloaded in 0.752 seconds.
+2022-04-14 22:06:06.425 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 22:06:24.215 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 22:09:36.991 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 22:09:37.139 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 22:09:37.906 [main] INFO  Application - Application auto-reloaded in 0.765 seconds.
+2022-04-14 22:09:38.046 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 22:09:40.738 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 22:32:50.669 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 22:32:50.765 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 22:32:51.375 [main] INFO  Application - Application auto-reloaded in 0.609 seconds.
+2022-04-14 22:32:51.525 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 22:32:53.771 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 22:36:17.493 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 22:36:17.611 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 22:36:18.222 [main] INFO  Application - Application auto-reloaded in 0.61 seconds.
+2022-04-14 22:36:18.369 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 22:36:38.972 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 22:47:34.797 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 22:48:34.526 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 22:48:34.614 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 22:48:35.223 [main] INFO  Application - Application auto-reloaded in 0.607 seconds.
+2022-04-14 22:48:35.367 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 22:48:41.300 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 22:52:24.364 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 22:52:24.455 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 22:52:25.176 [main] INFO  Application - Application auto-reloaded in 0.72 seconds.
+2022-04-14 22:52:25.356 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 22:52:28.467 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 22:54:10.121 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 22:55:00.547 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 22:55:35.893 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 22:55:35.992 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 22:55:36.739 [main] INFO  Application - Application auto-reloaded in 0.746 seconds.
+2022-04-14 22:55:36.892 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 22:55:39.912 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 23:08:55.421 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-14 23:09:00.038 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8935213543 9788935213542'
+2022-04-14 23:20:21.511 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 23:20:21.616 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 23:20:22.240 [main] INFO  Application - Application auto-reloaded in 0.623 seconds.
+2022-04-14 23:20:22.394 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 23:20:24.138 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 23:20:43.592 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 23:22:45.450 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 23:22:45.570 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 23:22:46.415 [main] INFO  Application - Application auto-reloaded in 0.844 seconds.
+2022-04-14 23:22:46.627 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 23:23:14.210 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 23:24:18.931 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 23:24:19.053 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 23:24:20.140 [main] INFO  Application - Application auto-reloaded in 1.084 seconds.
+2022-04-14 23:24:20.791 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 23:24:26.678 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 23:25:13.153 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 23:25:13.292 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 23:25:14.435 [main] INFO  Application - Application auto-reloaded in 1.141 seconds.
+2022-04-14 23:25:14.730 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 23:25:46.808 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 23:26:25.316 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-14 23:29:23.028 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-14 23:29:23.166 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-14 23:29:23.841 [main] INFO  Application - Application auto-reloaded in 0.673 seconds.
+2022-04-14 23:29:23.973 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-14 23:29:27.036 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC

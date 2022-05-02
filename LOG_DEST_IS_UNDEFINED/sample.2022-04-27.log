@@ -1,0 +1,212 @@
+2022-04-27 10:48:22.441 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 10:49:05.412 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 10:54:45.075 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 10:54:51.743 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:08:24.366 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:09:31.646 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:10:03.110 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:13:19.140 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:13:30.001 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:14:29.686 [eventLoopGroupProxy-4-5] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 11:14:31.945 [eventLoopGroupProxy-4-5] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:15:28.597 [eventLoopGroupProxy-4-5] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 11:15:31.375 [eventLoopGroupProxy-4-5] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:16:06.190 [eventLoopGroupProxy-4-5] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:16:48.610 [eventLoopGroupProxy-4-5] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:20:08.682 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 11:20:29.841 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:21:14.228 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:21:28.858 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:22:05.137 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:22:30.082 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:22:37.022 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:23:17.149 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:23:33.441 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:25:33.854 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:28:05.545 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:28:11.621 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:28:14.944 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:28:41.572 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:31:02.927 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 11:31:15.821 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1158512376 9791158512378'
+2022-04-27 11:31:23.575 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:33:45.020 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:34:09.234 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:34:39.389 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:35:22.700 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:36:33.068 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:36:40.133 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:36:48.554 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:36:53.850 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:41:36.388 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:42:15.266 [eventLoopGroupProxy-4-8] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 11:42:19.973 [eventLoopGroupProxy-4-8] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:42:28.628 [eventLoopGroupProxy-4-8] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 11:50:10.176 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-27 11:50:10.349 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-27 11:50:11.546 [main] INFO  Application - Application auto-reloaded in 1.195 seconds.
+2022-04-27 11:50:12.081 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-27 11:51:10.079 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-27 11:51:10.208 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-27 11:51:11.310 [main] INFO  Application - Application auto-reloaded in 1.099 seconds.
+2022-04-27 11:51:11.688 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-27 11:56:47.361 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 12:01:32.628 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-27 12:01:32.783 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-27 12:01:33.802 [main] INFO  Application - Application auto-reloaded in 1.018 seconds.
+2022-04-27 12:01:34.065 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-27 12:03:44.905 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.create_date >= '2022-01-01 00:00:00.000') AND (BookHistory.create_date <= '2022-12-31 23:59:59.000') ORDER BY BookHistory.create_date ASC
+2022-04-27 12:24:10.013 [eventLoopGroupProxy-4-5] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 12:33:07.128 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-27 12:33:07.253 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-27 12:33:08.203 [main] INFO  Application - Application auto-reloaded in 0.947 seconds.
+2022-04-27 12:33:08.531 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-27 12:36:22.424 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 12:36:29.441 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 12:36:42.308 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 12:37:12.930 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 12:38:00.222 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 12:38:22.301 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 12:38:52.749 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 12:41:50.363 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 12:44:27.474 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 17:09:29.864 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-27 17:09:30.015 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-27 17:09:30.766 [main] INFO  Application - Application auto-reloaded in 0.75 seconds.
+2022-04-27 17:09:31.159 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-27 17:11:46.982 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 17:14:07.881 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 17:34:09.609 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-27 17:34:09.703 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-27 17:34:10.288 [main] INFO  Application - Application auto-reloaded in 0.584 seconds.
+2022-04-27 17:34:10.580 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-27 18:34:20.879 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 18:36:27.100 [eventLoopGroupProxy-4-8] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 18:37:08.724 [eventLoopGroupProxy-4-9] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 18:37:46.457 [eventLoopGroupProxy-4-9] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 18:38:08.996 [eventLoopGroupProxy-4-9] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 18:46:26.646 [eventLoopGroupProxy-4-10] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 18:47:20.483 [eventLoopGroupProxy-4-10] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 18:57:17.738 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 18:58:19.587 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 19:00:24.947 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 19:00:48.241 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 19:02:43.573 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 19:04:32.416 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 19:05:23.097 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 19:12:39.918 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-27 19:16:23.059 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST

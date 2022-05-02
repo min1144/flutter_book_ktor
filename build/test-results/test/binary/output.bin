@@ -1,0 +1,121 @@
+r14:26:35,337 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+p14:26:35,337 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+∑14:26:35,337 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/logback.xml]
+i14:26:35,384 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+ï14:26:35,384 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+e14:26:35,390 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+µ14:26:35,394 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+°14:26:35,414 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+c14:26:35,417 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+Ú14:26:35,422 |-WARN in ch.qos.logback.core.joran.util.PropertySetter@39f7fffb - Failed to set property [maxHistory] to value "LOG_MAX_HISTORY_IS_UNDEFINED".  ch.qos.logback.core.util.PropertySetterException: Conversion to type [int] failed. 
+X	at ch.qos.logback.core.util.PropertySetterException: Conversion to type [int] failed. 
+[	at 	at ch.qos.logback.core.joran.util.PropertySetter.setProperty(PropertySetter.java:124)
+Z	at 	at ch.qos.logback.core.joran.util.PropertySetter.setProperty(PropertySetter.java:98)
+c	at 	at ch.qos.logback.core.joran.action.NestedBasicPropertyIA.body(NestedBasicPropertyIA.java:95)
+W	at 	at ch.qos.logback.core.joran.spi.Interpreter.callBodyAction(Interpreter.java:289)
+S	at 	at ch.qos.logback.core.joran.spi.Interpreter.characters(Interpreter.java:172)
+L	at 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:57)
+`	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)
+`	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:152)
+`	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:110)
+_	at 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:53)
+g	at 	at ch.qos.logback.classic.util.ContextInitializer.configureByResource(ContextInitializer.java:65)
+_	at 	at ch.qos.logback.classic.util.ContextInitializer.autoConfig(ContextInitializer.java:140)
+K	at 	at org.slf4j.impl.StaticLoggerBinder.init(StaticLoggerBinder.java:84)
+O	at 	at org.slf4j.impl.StaticLoggerBinder.<clinit>(StaticLoggerBinder.java:55)
+=	at 	at org.slf4j.LoggerFactory.bind(LoggerFactory.java:150)
+N	at 	at org.slf4j.LoggerFactory.performInitialization(LoggerFactory.java:124)
+J	at 	at org.slf4j.LoggerFactory.getILoggerFactory(LoggerFactory.java:417)
+B	at 	at org.slf4j.LoggerFactory.getLogger(LoggerFactory.java:362)
+B	at 	at org.jetbrains.exposed.sql.SQLLogKt.<clinit>(SQLLog.kt:14)
+H	at 	at org.jetbrains.exposed.sql.Transaction.<init>(Transaction.kt:55)
+Å	at 	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManager.newTransaction(ThreadLocalTransactionManager.kt:39)
+è	at 	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:184)
+î	at 	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+î	at 	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+ö	at 	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+ã	at 	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+ä	at 	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+ö	at 	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+Å	at 	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+Å	at 	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+â	at 	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+A	at 	at com.example.data.SQLliteKt.connectSQLlite(SQLlite.kt:14)
+D	at 	at com.example.ApplicationTest.testRead(ApplicationTest.kt:24)
+D	at 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+V	at 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+^	at 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+9	at 	at java.lang.reflect.Method.invoke(Method.java:498)
+]	at 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+\	at 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+[	at 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+Z	at 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+I	at 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+]	at 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+F	at 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+[	at 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+Z	at 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+D	at 	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+H	at 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+J	at 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+H	at 	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+I	at 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+I	at 	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+B	at 	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+y	at 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+s	at 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+s	at 	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+é	at 	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+x	at 	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+D	at 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+V	at 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+^	at 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+9	at 	at java.lang.reflect.Method.invoke(Method.java:498)
+]	at 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+]	at 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+m	at 	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+|	at 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+?	at 	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+f	at 	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:121)
+D	at 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+V	at 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+^	at 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+9	at 	at java.lang.reflect.Method.invoke(Method.java:498)
+]	at 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+]	at 	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+ï	at 	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+ï	at 	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+\	at 	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+o	at 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+^	at 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+X	at 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+X	at 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+n	at 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+.	at 	at java.lang.Thread.run(Thread.java:750)
+]Caused by: java.lang.NumberFormatException: For input string: "LOG_MAX_HISTORY_IS_UNDEFINED"
+V	at 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+5	at 	at java.lang.Integer.parseInt(Integer.java:580)
+3	at 	at java.lang.Integer.<init>(Integer.java:867)
+k	at 	at ch.qos.logback.core.joran.util.StringToObjectConverter.convertArg(StringToObjectConverter.java:61)
+[	at 	at ch.qos.logback.core.joran.util.PropertySetter.setProperty(PropertySetter.java:122)
+"	at 	... 82 common frames omitted
+k14:26:35,422 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1751781261 - setting totalSizeCap to 3 GB
+j14:26:35,425 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1751781261 - No compression will be used
+ß14:26:35,425 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@1751781261 - Will use the pattern LOG_DEST_IS_UNDEFINED/sample.%d{yyyy-MM-dd}.log for the active file
+≈14:26:35,428 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'LOG_DEST_IS_UNDEFINED/sample.%d{yyyy-MM-dd}.log'.
+q14:26:35,428 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+ë14:26:35,430 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to Tue Apr 12 13:36:20 KST 2022
+ò14:26:35,431 |-WARN in c.q.l.core.rolling.TimeBasedRollingPolicy@1751781261 - 'maxHistory' is not set, ignoring 'totalSizeCap' option with value [3 GB]
+µ14:26:35,431 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+Ü14:26:35,432 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: LOG_DEST_IS_UNDEFINED/sample.log
+ä14:26:35,432 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [LOG_DEST_IS_UNDEFINED/sample.log]
+t14:26:35,433 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to TRACE
+~14:26:35,433 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+|14:26:35,434 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[ROOT]
+~14:26:35,434 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.eclipse.jetty] to INFO
+u14:26:35,434 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [io.netty] to INFO
+g14:26:35,434 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+ä14:26:35,435 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@6e642d5c - Registering current configuration as safe fallback point
+
+Â2022-04-12 14:26:35.969 [Test worker] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+°[BookRating(id=1, title=aaa, author=kkk, summary=jam, isbn=1928271929, image=, rating=0.0, publisher=poong, description=pizza, createDate=null, updateDate=null)]hello world

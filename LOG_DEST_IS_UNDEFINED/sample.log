@@ -1,0 +1,42 @@
+2022-05-02 10:40:10.091 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/flutter_book_ktor/build/resources/main/application.conf: 6
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/flutter_book_ktor/build/resources/main/application.conf: 7
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/flutter_book_ktor/build/resources/main/application.conf: 7
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/flutter_book_ktor/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/flutter_book_ktor/build/resources/main/application.conf: 3
+        "port" : 8080
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-05-02 10:40:10.222 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-05-02 10:40:10.851 [main] INFO  Application - Application auto-reloaded in 0.628 seconds.
+2022-05-02 10:40:11.019 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-05-02 10:48:07.977 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/flutter_book_ktor/build/resources/main/application.conf: 6
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/flutter_book_ktor/build/resources/main/application.conf: 7
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/flutter_book_ktor/build/resources/main/application.conf: 7
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/flutter_book_ktor/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/flutter_book_ktor/build/resources/main/application.conf: 3
+        "port" : 8080
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-05-02 10:48:08.088 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-05-02 10:48:08.757 [main] INFO  Application - Application auto-reloaded in 0.667 seconds.
+2022-05-02 10:48:08.930 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080

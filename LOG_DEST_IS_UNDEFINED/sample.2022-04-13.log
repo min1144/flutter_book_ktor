@@ -1,0 +1,540 @@
+2022-04-13 10:47:59.093 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-13 10:47:59.222 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-13 10:47:59.953 [main] INFO  Application - Application auto-reloaded in 0.729 seconds.
+2022-04-13 10:48:00.153 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-13 10:49:43.008 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 10:49:48.364 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1191043290 9791191043297'
+2022-04-13 10:50:06.293 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1196211337 9791196211332'
+2022-04-13 11:01:11.643 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1191043290 9791191043297'
+2022-04-13 11:01:18.985 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1191043290 9791191043297'
+2022-04-13 11:12:15.942 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 11:12:45.965 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8984374385 9788984374386'
+2022-04-13 11:32:55.994 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 11:32:58.504 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8931465556 9788931465556'
+2022-04-13 11:35:42.400 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 11:35:45.313 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1190839121 9791190839129'
+2022-04-13 14:06:29.346 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-13 14:06:29.470 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-13 14:06:30.285 [main] INFO  Application - Application auto-reloaded in 0.814 seconds.
+2022-04-13 14:06:30.582 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-13 14:12:24.837 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:12:39.762 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1165215845 9791165215842'
+2022-04-13 14:14:13.304 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:14:26.036 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1165215845 9791165215842'
+2022-04-13 14:20:00.762 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:20:07.671 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:20:17.218 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 14:21:45.721 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:21:54.094 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 14:29:09.738 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:29:17.666 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 14:29:22.819 [eventLoopGroupProxy-4-3] DEBUG Exposed - INSERT INTO BookHistory (author, create_date, description, image, isbn, publisher, rating, summary, title, update_date) VALUES ('정재은|이고은|정재승', '2022-04-13 14:29:22.803', '익숙한 듯 낯선, 인간이라는 세계로의 항해. 《정재승의 인간 탐구 보고서》 8권 출간! 이번에는 ‘미신’이다. 빨간색으로 이름을 쓰면 죽는다? 밤에 손톱을 깎으면 쥐에게 영혼이 옮겨 간다? 지구인의 일상을 위험천만하게 만드는 각종 미신들! 지구인들이 이런 수상한 것들을 믿는 이유가 미래를 통제하기... ', 'https://bookthumb-phinf.pstatic.net/cover/213/780/21378087.jpg?type=m1&udate=20211231', '8950983141 9788950983147', '아울북', 3.0, '111', '정재승의 인간 탐구 보고서 8 (불안이 온갖 미신을 만든다)', '2022-04-13 14:29:22.803')
+2022-04-13 14:31:08.910 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1190073153 9791190073158'
+2022-04-13 14:31:17.514 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 14:32:46.911 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:32:56.129 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 14:36:55.533 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:36:59.893 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 14:37:51.195 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:37:54.138 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:38:00.804 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 14:38:27.479 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:38:31.499 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 14:38:58.621 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:39:00.855 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 14:50:33.566 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:50:36.560 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1165218429 9791165218423'
+2022-04-13 14:50:48.204 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1170431976 9791170431978'
+2022-04-13 14:50:52.523 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 14:53:01.826 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:53:04.974 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 14:53:15.870 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 14:53:42.214 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:53:50.334 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:53:54.336 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 14:57:31.766 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 14:57:36.560 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 14:58:38.873 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:03:43.961 [eventLoopGroupProxy-4-5] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:03:47.926 [eventLoopGroupProxy-4-5] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 15:05:11.681 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:05:42.748 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 15:06:47.095 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:06:53.483 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 15:07:07.040 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:07:11.139 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 15:07:46.407 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:07:49.334 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 15:08:44.990 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:08:58.152 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 15:11:08.464 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:11:13.217 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 15:12:16.309 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:12:19.644 [eventLoopGroupProxy-4-6] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 15:19:51.332 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:19:58.279 [eventLoopGroupProxy-4-7] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 15:32:35.775 [eventLoopGroupProxy-4-8] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:33:03.150 [eventLoopGroupProxy-4-8] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 15:34:21.369 [eventLoopGroupProxy-4-9] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:34:31.721 [eventLoopGroupProxy-4-9] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 15:35:09.653 [eventLoopGroupProxy-4-9] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:35:14.221 [eventLoopGroupProxy-4-9] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 15:41:39.198 [eventLoopGroupProxy-4-10] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:41:41.446 [eventLoopGroupProxy-4-10] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 15:43:11.638 [eventLoopGroupProxy-4-10] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:43:16.144 [eventLoopGroupProxy-4-10] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:43:21.014 [eventLoopGroupProxy-4-10] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1196851204 9791196851200'
+2022-04-13 15:43:24.817 [eventLoopGroupProxy-4-10] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 15:46:02.028 [eventLoopGroupProxy-4-10] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 15:46:05.580 [eventLoopGroupProxy-4-10] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1167900863 9791167900869'
+2022-04-13 15:46:15.302 [eventLoopGroupProxy-4-10] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 16:21:07.423 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:21:09.943 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 16:22:09.178 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:22:44.203 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 16:24:13.576 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:24:17.030 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 16:25:06.936 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:25:10.857 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 16:25:53.453 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:25:58.120 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 16:26:51.148 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:26:56.495 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 16:27:25.659 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:27:28.848 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 16:27:40.982 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:27:45.826 [eventLoopGroupProxy-4-11] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 16:34:40.728 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:39:31.283 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1190073153 9791190073158'
+2022-04-13 16:41:17.057 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:41:21.706 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1190073153 9791190073158'
+2022-04-13 16:43:33.448 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:43:43.167 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:43:47.335 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1190073153 9791190073158'
+2022-04-13 16:43:52.729 [eventLoopGroupProxy-4-12] DEBUG Exposed - DELETE FROM BookHistory WHERE BookHistory.id = 2
+2022-04-13 16:44:04.710 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:44:13.160 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 16:44:43.680 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:44:52.463 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 16:44:58.560 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1165218429 9791165218423'
+2022-04-13 16:45:14.319 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 16:46:05.033 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:46:08.423 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1165215837 9791165215835'
+2022-04-13 16:46:19.405 [eventLoopGroupProxy-4-12] DEBUG Exposed - INSERT INTO BookHistory (author, create_date, description, image, isbn, publisher, rating, summary, title, update_date) VALUES ('니시와키 순지', '2022-04-13 16:46:19.402', '스스로 예민한 정신과의사가 찾은\n마음이 편해지는 가장 구체적인 방법 57\n작가 새벽 세시, 뮤지션 슈가볼 추천!\n“이 책을 읽고, 오랜만에 한 번도 깨지 않고 단잠을 잤다”\n\n예민한 사람의 장점인 섬세함은 살리고, 일과 생활을 방해하는 괴로움은 없애는 확실한 습관을 소개하며 일본 독자들의 큰 사랑을 받은... ', 'https://bookthumb-phinf.pstatic.net/cover/207/314/20731454.jpg?type=m1&udate=20211207', '1165215837 9791165215835', '더퀘스트', 2.0, '예민하다고', '예민한 사람도 마음이 편안해지는 작은 습관 (사소한 것이 맘에 걸려 고생해온 정신과의사가 실제로 효과 본 확실한 습관)', '2022-04-13 16:46:19.402')
+2022-04-13 16:46:29.308 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:49:19.946 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 16:49:29.356 [eventLoopGroupProxy-4-12] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1165215837 9791165215835'
+2022-04-13 18:12:27.307 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:12:38.239 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:12:43.427 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1165215837 9791165215835'
+2022-04-13 18:12:56.735 [eventLoopGroupProxy-4-1] DEBUG Exposed - DELETE FROM BookHistory WHERE BookHistory.id = 4
+2022-04-13 18:13:10.838 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:13:17.949 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 18:14:19.581 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:22:54.698 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 18:24:19.784 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:24:24.581 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 18:25:20.721 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:25:24.096 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1139701312 9791139701319'
+2022-04-13 18:25:37.244 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 18:56:09.479 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:56:15.044 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8935208957 9788935208951'
+2022-04-13 18:56:31.865 [eventLoopGroupProxy-4-3] DEBUG Exposed - INSERT INTO BookHistory (author, create_date, description, image, isbn, publisher, rating, summary, title, update_date) VALUES ('다니엘 핑크', '2022-04-13 18:56:31.863', '동기부여에 대한 새로운 패러다임을 제시하다!창조적인 사람들을 움직이는 자발적 동기부여의 힘『드라이브』. 앨빈 토플러와 함께 세계적인 미래학자로 손꼽히며, 경제변화와 기업전략, 미래 트렌드 등을 주제로 활발한 강의와 저작활동을 펼치고 있는 다니엘 핑크가 우리가 알지 못했던 동기부여에 관한... ', 'https://bookthumb-phinf.pstatic.net/cover/067/506/06750656.jpg?type=m1&udate=20190730', '8935208957 9788935208951', '청림출판', 3.0, '드라이브는 좋다 나도 차박에 갈 예정이다.', '드라이브 (창조적인 사람들을 움직이는 자발적 동기부여의 힘,Drive : The Surprising Truth About What Motivates Us)', '2022-04-13 18:56:31.863')
+2022-04-13 18:56:41.490 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:56:46.432 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8935208957 9788935208951'
+2022-04-13 18:56:51.872 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8950983141 9788950983147'
+2022-04-13 18:57:11.132 [eventLoopGroupProxy-4-3] DEBUG Exposed - DELETE FROM BookHistory WHERE BookHistory.id = 3
+2022-04-13 18:57:20.486 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:57:38.131 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:57:41.754 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:57:57.933 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8935208957 9788935208951'
+2022-04-13 18:58:12.442 [eventLoopGroupProxy-4-3] DEBUG Exposed - UPDATE BookHistory SET title='드라이브 (창조적인 사람들을 움직이는 자발적 동기부여의 힘,Drive : The Surprising Truth About What Motivates Us)', author='다니엘 핑크', summary='드라이브는 좋다 나도 차박에 갈 예정이다. 매트까지 샀다.', isbn='8935208957 9788935208951', image='https://bookthumb-phinf.pstatic.net/cover/067/506/06750656.jpg?type=m1&udate=20190730', rating=5.0, publisher='청림출판', description='동기부여에 대한 새로운 패러다임을 제시하다!창조적인 사람들을 움직이는 자발적 동기부여의 힘『드라이브』. 앨빈 토플러와 함께 세계적인 미래학자로 손꼽히며, 경제변화와 기업전략, 미래 트렌드 등을 주제로 활발한 강의와 저작활동을 펼치고 있는 다니엘 핑크가 우리가 알지 못했던 동기부여에 관한... ', update_date=CURRENT_TIMESTAMP WHERE BookHistory.id = 5
+2022-04-13 18:58:21.683 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:58:36.124 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8935208957 9788935208951'
+2022-04-13 18:58:41.064 [eventLoopGroupProxy-4-3] DEBUG Exposed - DELETE FROM BookHistory WHERE BookHistory.id = 5
+2022-04-13 18:58:46.613 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:59:09.241 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 18:59:19.924 [eventLoopGroupProxy-4-3] DEBUG Exposed - INSERT INTO BookHistory (author, create_date, description, image, isbn, publisher, rating, summary, title, update_date) VALUES ('박영옥', '2022-04-13 18:59:19.922', '존 리, 김동환, 이채원 강력 추천! “4,500만 원으로 2,000억 부를 이룬 투자 비결”자본금 4,500만 원으로 2,000억 원, 약 4,500배 수익률을 거둔 대한민국 최고 주식부자의 투자 비결을 담은 책이 출간됐다. 놀라운 점은 이러한 수익률이 IT 버블, 서브 프라임, 코로나 폭락장과 코스피 2,000에 갇혀 있던 박스피를... ', 'https://bookthumb-phinf.pstatic.net/cover/211/540/21154074.jpg?type=m1&udate=20211110', '1166570428 9791166570421', '센시오', 1.0, '뻔한 이야기가 많다.', '주식투자 절대원칙 (대한민국 최고 투자자 주식농부의)', '2022-04-13 18:59:19.922')
+2022-04-13 18:59:33.096 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:59:37.701 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 18:59:48.663 [eventLoopGroupProxy-4-3] DEBUG Exposed - UPDATE BookHistory SET title='주식투자 절대원칙 (대한민국 최고 투자자 주식농부의)', author='박영옥', summary='뻔한 이야기가 많다. 그치만 한번 본다.', isbn='1166570428 9791166570421', image='https://bookthumb-phinf.pstatic.net/cover/211/540/21154074.jpg?type=m1&udate=20211110', rating=5.0, publisher='센시오', description='존 리, 김동환, 이채원 강력 추천! “4,500만 원으로 2,000억 부를 이룬 투자 비결”자본금 4,500만 원으로 2,000억 원, 약 4,500배 수익률을 거둔 대한민국 최고 주식부자의 투자 비결을 담은 책이 출간됐다. 놀라운 점은 이러한 수익률이 IT 버블, 서브 프라임, 코로나 폭락장과 코스피 2,000에 갇혀 있던 박스피를... ', update_date=CURRENT_TIMESTAMP WHERE BookHistory.id = 6
+2022-04-13 18:59:56.730 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 18:59:59.594 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 19:00:07.426 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8935213349 9788935213344'
+2022-04-13 19:00:12.504 [eventLoopGroupProxy-4-3] DEBUG Exposed - INSERT INTO BookHistory (author, create_date, description, image, isbn, publisher, rating, summary, title, update_date) VALUES ('조윤제', '2022-04-13 19:00:12.501', '모든 것을 쏟아낸 지금, 무엇으로 나를 다시 채울 것인가?\n다산이 육십 년 공부를 비우고 처음부터 다시 채우고자 읽은 마지막 책, 《소학》지금 밟고 있는 곳이 인생의 정점임을 깨달았을 때, 우리는 성취감보다는 불안감을 느낀다. 익숙해서 습관이 되어버린 일상들을 반복하면서 서서히 인생의 하강곡선을 그릴... ', 'https://bookthumb-phinf.pstatic.net/cover/170/735/17073517.jpg?type=m1&udate=20210917', '8935213349 9788935213344', '청림출판', 2.0, '222', '다산의 마지막 습관', '2022-04-13 19:00:12.501')
+2022-04-13 19:00:24.200 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8935213349 9788935213344'
+2022-04-13 19:00:28.471 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '8935213543 9788935213542'
+2022-04-13 19:00:33.068 [eventLoopGroupProxy-4-3] DEBUG Exposed - INSERT INTO BookHistory (author, create_date, description, image, isbn, publisher, rating, summary, title, update_date) VALUES ('조윤제', '2022-04-13 19:00:33.066', '다산이 육십 년 공부를 비우고\n처음부터 다시 채우고자 읽은 마지막 책, 『소학』왜 어른들이 단풍 앞에서 오래 머무르는지 이해하지 못했다. 그들만큼 살아온 다음에야 그 까닭을 알게 되었다. 절기의 반환점을 돌아 떨어지는 잎들이 애틋하기 때문이다. 거둘 때에 이르면 자연스럽게 뒤를 돌아보며 남은 길을... ', 'https://bookthumb-phinf.pstatic.net/cover/205/970/20597002.jpg?type=m1&udate=20210728', '8935213543 9788935213542', '청림출판', 1.0, '3333', '다산의 마지막 습관 (10만 부 기념 리커버 에디션,기본으로 돌아간다는 것)', '2022-04-13 19:00:33.066')
+2022-04-13 19:00:40.730 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1158512376 9791158512378'
+2022-04-13 19:00:45.375 [eventLoopGroupProxy-4-3] DEBUG Exposed - INSERT INTO BookHistory (author, create_date, description, image, isbn, publisher, rating, summary, title, update_date) VALUES ('보도 섀퍼', '2022-04-13 19:00:45.372', '“강철 같은 멘탈, 무서운 실행력, 압도적인 성과를만들어낸 승자들의 이기는 습관 30가지!”밀리언셀러 《돈》 《멘탈의 연금술》의 작가 보도 섀퍼가찾아낸 ‘불가능한 꿈을 가능한 현실’로 만든 사람들의 비밀보도 섀퍼는 자타가 공인하는 세계 최고의 동기부여 전문가이자 멘탈 코치다. 《돈》 《열두... ', 'https://bookthumb-phinf.pstatic.net/cover/221/095/22109518.jpg?type=m1&udate=20220405', '1158512376 9791158512378', '토네이도', 4.0, '4444', '보도 섀퍼의 이기는 습관 (불가능을 뛰어넘어 최후의 승자가 된 사람들)', '2022-04-13 19:00:45.372')
+2022-04-13 19:00:52.354 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1165215837 9791165215835'
+2022-04-13 19:00:57.673 [eventLoopGroupProxy-4-3] DEBUG Exposed - INSERT INTO BookHistory (author, create_date, description, image, isbn, publisher, rating, summary, title, update_date) VALUES ('니시와키 순지', '2022-04-13 19:00:57.671', '스스로 예민한 정신과의사가 찾은\n마음이 편해지는 가장 구체적인 방법 57\n작가 새벽 세시, 뮤지션 슈가볼 추천!\n“이 책을 읽고, 오랜만에 한 번도 깨지 않고 단잠을 잤다”\n\n예민한 사람의 장점인 섬세함은 살리고, 일과 생활을 방해하는 괴로움은 없애는 확실한 습관을 소개하며 일본 독자들의 큰 사랑을 받은... ', 'https://bookthumb-phinf.pstatic.net/cover/207/314/20731454.jpg?type=m1&udate=20211207', '1165215837 9791165215835', '더퀘스트', 5.0, '555555', '예민한 사람도 마음이 편안해지는 작은 습관 (사소한 것이 맘에 걸려 고생해온 정신과의사가 실제로 효과 본 확실한 습관)', '2022-04-13 19:00:57.671')
+2022-04-13 19:01:05.840 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1165215837 9791165215835'
+2022-04-13 19:01:09.081 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1165383047 9791165383046'
+2022-04-13 19:01:15.439 [eventLoopGroupProxy-4-3] DEBUG Exposed - INSERT INTO BookHistory (author, create_date, description, image, isbn, publisher, rating, summary, title, update_date) VALUES ('아이휴먼 편집부', '2022-04-13 19:01:15.437', '★ 국내 넷플릭스 키즈 부문 1위! ★ 호주&북미 넷플릭스 상위권 진입!  ★ 유튜브 누적 조회 수 1억 5천만 회 돌파! ★ 중국 미디어 채널 누적 조회 수 11억 회 달성!시즌 1의 인기에 힘입어 2021년 9월에 방영된 애니메이션 〈반짝반짝 캐치!티니핑〉 시즌 2가 지금까지 꾸준한 화제를 일으키고 있습니다. 수려한... ', 'https://bookthumb-phinf.pstatic.net/cover/219/828/21982817.jpg?type=m1&udate=20220411', '1165383047 9791165383046', '아이휴먼', 1.0, '6666', '반짝반짝 캐치! 티니핑 마음 성장 동화 1 (로미의 새로운 도전)', '2022-04-13 19:01:15.437')
+2022-04-13 19:01:24.149 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 19:03:08.324 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 19:04:21.351 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 19:04:54.819 [eventLoopGroupProxy-4-3] DEBUG Exposed - UPDATE BookHistory SET title='주식투자 절대원칙 (대한민국 최고 투자자 주식농부의)', author='박영옥', summary='뻔한 이야기가 많다. 그치만 한번 본다. 업데이트!', isbn='1166570428 9791166570421', image='https://bookthumb-phinf.pstatic.net/cover/211/540/21154074.jpg?type=m1&udate=20211110', rating=4.0, publisher='센시오', description='존 리, 김동환, 이채원 강력 추천! “4,500만 원으로 2,000억 부를 이룬 투자 비결”자본금 4,500만 원으로 2,000억 원, 약 4,500배 수익률을 거둔 대한민국 최고 주식부자의 투자 비결을 담은 책이 출간됐다. 놀라운 점은 이러한 수익률이 IT 버블, 서브 프라임, 코로나 폭락장과 코스피 2,000에 갇혀 있던 박스피를... ', update_date=CURRENT_TIMESTAMP WHERE BookHistory.id = 6
+2022-04-13 19:05:40.000 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 19:05:46.598 [eventLoopGroupProxy-4-3] DEBUG Exposed - UPDATE BookHistory SET title='주식투자 절대원칙 (대한민국 최고 투자자 주식농부의)', author='박영옥', summary='뻔한 이야기가 많다. 그치만 한번 본다. 업데이트! 111', isbn='1166570428 9791166570421', image='https://bookthumb-phinf.pstatic.net/cover/211/540/21154074.jpg?type=m1&udate=20211110', rating=5.0, publisher='센시오', description='존 리, 김동환, 이채원 강력 추천! “4,500만 원으로 2,000억 부를 이룬 투자 비결”자본금 4,500만 원으로 2,000억 원, 약 4,500배 수익률을 거둔 대한민국 최고 주식부자의 투자 비결을 담은 책이 출간됐다. 놀라운 점은 이러한 수익률이 IT 버블, 서브 프라임, 코로나 폭락장과 코스피 2,000에 갇혀 있던 박스피를... ', update_date=CURRENT_TIMESTAMP WHERE BookHistory.id = 6
+2022-04-13 19:20:34.426 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-13 19:20:34.586 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-13 19:20:35.402 [main] INFO  Application - Application auto-reloaded in 0.814 seconds.
+2022-04-13 19:20:35.577 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-13 19:20:37.858 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 19:20:46.649 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1165383047 9791165383046'
+2022-04-13 19:20:50.673 [eventLoopGroupProxy-4-1] DEBUG Exposed - DELETE FROM BookHistory WHERE BookHistory.id = 11
+2022-04-13 19:20:56.264 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 19:20:59.077 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 19:21:14.637 [eventLoopGroupProxy-4-1] DEBUG Exposed - UPDATE BookHistory SET title='주식투자 절대원칙 (대한민국 최고 투자자 주식농부의)', author='박영옥', summary='뻔한 이야기가 많다. 그치만 한번 본다. 업데이트! 111 시간이 왜이려?', isbn='1166570428 9791166570421', image='https://bookthumb-phinf.pstatic.net/cover/211/540/21154074.jpg?type=m1&udate=20211110', rating=4.0, publisher='센시오', description='존 리, 김동환, 이채원 강력 추천! “4,500만 원으로 2,000억 부를 이룬 투자 비결”자본금 4,500만 원으로 2,000억 원, 약 4,500배 수익률을 거둔 대한민국 최고 주식부자의 투자 비결을 담은 책이 출간됐다. 놀라운 점은 이러한 수익률이 IT 버블, 서브 프라임, 코로나 폭락장과 코스피 2,000에 갇혀 있던 박스피를... ', update_date=CURRENT_TIMESTAMP WHERE BookHistory.id = 6
+2022-04-13 19:24:28.177 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 19:24:39.005 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 19:25:04.035 [eventLoopGroupProxy-4-1] DEBUG Exposed - UPDATE BookHistory SET title='주식투자 절대원칙 (대한민국 최고 투자자 주식농부의)', author='박영옥', summary='뻔한 이야기가 많다. 그치만 한번 본다. 업데이트! 111 시간이 왜이려?1111', isbn='1166570428 9791166570421', image='https://bookthumb-phinf.pstatic.net/cover/211/540/21154074.jpg?type=m1&udate=20211110', rating=3.0, publisher='센시오', description='존 리, 김동환, 이채원 강력 추천! “4,500만 원으로 2,000억 부를 이룬 투자 비결”자본금 4,500만 원으로 2,000억 원, 약 4,500배 수익률을 거둔 대한민국 최고 주식부자의 투자 비결을 담은 책이 출간됐다. 놀라운 점은 이러한 수익률이 IT 버블, 서브 프라임, 코로나 폭락장과 코스피 2,000에 갇혀 있던 박스피를... ', update_date=CURRENT_TIMESTAMP WHERE BookHistory.id = 6
+2022-04-13 19:25:23.535 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 19:25:40.151 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 19:25:44.336 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 19:35:46.187 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-13 19:35:46.298 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-13 19:35:46.967 [main] INFO  Application - Application auto-reloaded in 0.667 seconds.
+2022-04-13 19:35:47.118 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-13 19:35:59.208 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 19:36:01.979 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 19:37:03.744 [eventLoopGroupProxy-4-1] DEBUG Exposed - UPDATE BookHistory SET title='주식투자 절대원칙 (대한민국 최고 투자자 주식농부의)', author='박영옥', summary='7시36분 지나간다.', isbn='1166570428 9791166570421', image='https://bookthumb-phinf.pstatic.net/cover/211/540/21154074.jpg?type=m1&udate=20211110', rating=2.0, publisher='센시오', description='존 리, 김동환, 이채원 강력 추천! “4,500만 원으로 2,000억 부를 이룬 투자 비결”자본금 4,500만 원으로 2,000억 원, 약 4,500배 수익률을 거둔 대한민국 최고 주식부자의 투자 비결을 담은 책이 출간됐다. 놀라운 점은 이러한 수익률이 IT 버블, 서브 프라임, 코로나 폭락장과 코스피 2,000에 갇혀 있던 박스피를... ', update_date='2022-04-13 19:37:03.730' WHERE BookHistory.id = 6
+2022-04-13 19:38:25.474 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 19:38:27.199 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 19:38:33.240 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 19:38:45.934 [eventLoopGroupProxy-4-1] DEBUG Exposed - UPDATE BookHistory SET title='주식투자 절대원칙 (대한민국 최고 투자자 주식농부의)', author='박영옥', summary='7시36분 지나간다.1111', isbn='1166570428 9791166570421', image='https://bookthumb-phinf.pstatic.net/cover/211/540/21154074.jpg?type=m1&udate=20211110', rating=5.0, publisher='센시오', description='존 리, 김동환, 이채원 강력 추천! “4,500만 원으로 2,000억 부를 이룬 투자 비결”자본금 4,500만 원으로 2,000억 원, 약 4,500배 수익률을 거둔 대한민국 최고 주식부자의 투자 비결을 담은 책이 출간됐다. 놀라운 점은 이러한 수익률이 IT 버블, 서브 프라임, 코로나 폭락장과 코스피 2,000에 갇혀 있던 박스피를... ', update_date='2022-04-13 19:38:45.932' WHERE BookHistory.id = 6
+2022-04-13 19:38:49.734 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 19:39:08.254 [eventLoopGroupProxy-4-1] DEBUG Exposed - UPDATE BookHistory SET title='주식투자 절대원칙 (대한민국 최고 투자자 주식농부의)', author='박영옥', summary='없떠여', isbn='1166570428 9791166570421', image='https://bookthumb-phinf.pstatic.net/cover/211/540/21154074.jpg?type=m1&udate=20211110', rating=3.0, publisher='센시오', description='존 리, 김동환, 이채원 강력 추천! “4,500만 원으로 2,000억 부를 이룬 투자 비결”자본금 4,500만 원으로 2,000억 원, 약 4,500배 수익률을 거둔 대한민국 최고 주식부자의 투자 비결을 담은 책이 출간됐다. 놀라운 점은 이러한 수익률이 IT 버블, 서브 프라임, 코로나 폭락장과 코스피 2,000에 갇혀 있던 박스피를... ', update_date='2022-04-13 19:39:08.252' WHERE BookHistory.id = 6
+2022-04-13 19:39:12.177 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 19:40:24.381 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 19:40:28.750 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 19:40:34.089 [eventLoopGroupProxy-4-1] DEBUG Exposed - UPDATE BookHistory SET title='주식투자 절대원칙 (대한민국 최고 투자자 주식농부의)', author='박영옥', summary='없떠여1', isbn='1166570428 9791166570421', image='https://bookthumb-phinf.pstatic.net/cover/211/540/21154074.jpg?type=m1&udate=20211110', rating=3.0, publisher='센시오', description='존 리, 김동환, 이채원 강력 추천! “4,500만 원으로 2,000억 부를 이룬 투자 비결”자본금 4,500만 원으로 2,000억 원, 약 4,500배 수익률을 거둔 대한민국 최고 주식부자의 투자 비결을 담은 책이 출간됐다. 놀라운 점은 이러한 수익률이 IT 버블, 서브 프라임, 코로나 폭락장과 코스피 2,000에 갇혀 있던 박스피를... ', update_date='2022-04-13 19:40:34.088' WHERE BookHistory.id = 6
+2022-04-13 19:40:37.409 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 19:40:47.324 [eventLoopGroupProxy-4-1] DEBUG Exposed - UPDATE BookHistory SET title='주식투자 절대원칙 (대한민국 최고 투자자 주식농부의)', author='박영옥', summary='22', isbn='1166570428 9791166570421', image='https://bookthumb-phinf.pstatic.net/cover/211/540/21154074.jpg?type=m1&udate=20211110', rating=1.0, publisher='센시오', description='존 리, 김동환, 이채원 강력 추천! “4,500만 원으로 2,000억 부를 이룬 투자 비결”자본금 4,500만 원으로 2,000억 원, 약 4,500배 수익률을 거둔 대한민국 최고 주식부자의 투자 비결을 담은 책이 출간됐다. 놀라운 점은 이러한 수익률이 IT 버블, 서브 프라임, 코로나 폭락장과 코스피 2,000에 갇혀 있던 박스피를... ', update_date='2022-04-13 19:40:47.322' WHERE BookHistory.id = 6
+2022-04-13 19:40:54.104 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 19:40:56.463 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 19:41:04.564 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1190238314 9791190238311'
+2022-04-13 19:41:24.441 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1190025019 9791190025010'
+2022-04-13 19:41:35.588 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE BookHistory.isbn = '1166570428 9791166570421'
+2022-04-13 21:57:02.190 [eventLoopGroupProxy-4-2] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory ORDER BY BookHistory.update_date DESC NULLS LAST
+2022-04-13 22:02:46.784 [eventLoopGroupProxy-4-3] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.update_date >= '2022-01-01 00:00:00.000') AND (BookHistory.update_date <= '2022-12-31 23:59:59.000')
+2022-04-13 22:05:36.090 [eventLoopGroupProxy-4-4] DEBUG Exposed - SELECT BookHistory.id, BookHistory.title, BookHistory.author, BookHistory.summary, BookHistory.isbn, BookHistory.image, BookHistory.rating, BookHistory.publisher, BookHistory.description, BookHistory.create_date, BookHistory.update_date FROM BookHistory WHERE (BookHistory.update_date >= '2022-01-01 00:00:00.000') AND (BookHistory.update_date <= '2022-12-31 23:59:59.000')
+2022-04-13 23:36:13.938 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-13 23:36:14.038 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-13 23:36:14.659 [main] INFO  Application - Application auto-reloaded in 0.62 seconds.
+2022-04-13 23:36:14.812 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-13 23:37:15.746 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-13 23:37:15.843 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-13 23:37:16.440 [main] INFO  Application - Application auto-reloaded in 0.596 seconds.
+2022-04-13 23:37:16.588 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-13 23:37:33.708 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.create_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-13 23:38:15.919 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-13 23:38:16.025 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-13 23:38:16.603 [main] INFO  Application - Application auto-reloaded in 0.577 seconds.
+2022-04-13 23:38:16.736 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-13 23:38:19.826 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.create_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-13 23:39:02.983 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-13 23:39:03.099 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-13 23:39:03.774 [main] INFO  Application - Application auto-reloaded in 0.674 seconds.
+2022-04-13 23:39:03.929 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-13 23:39:07.059 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.create_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-13 23:39:58.385 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-13 23:39:58.481 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-13 23:39:59.160 [main] INFO  Application - Application auto-reloaded in 0.678 seconds.
+2022-04-13 23:39:59.310 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-13 23:40:06.936 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.create_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-13 23:40:34.672 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.create_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-13 23:41:02.907 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-13 23:41:03.016 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-13 23:41:03.954 [main] INFO  Application - Application auto-reloaded in 0.936 seconds.
+2022-04-13 23:41:04.139 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-13 23:41:08.954 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.create_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-13 23:41:37.607 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-13 23:41:37.718 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-13 23:41:38.350 [main] INFO  Application - Application auto-reloaded in 0.631 seconds.
+2022-04-13 23:41:38.505 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-13 23:41:40.226 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.create_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-13 23:47:32.634 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-13 23:47:32.731 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-13 23:47:33.352 [main] INFO  Application - Application auto-reloaded in 0.62 seconds.
+2022-04-13 23:47:33.494 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-13 23:47:41.272 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.create_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-13 23:49:07.781 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-13 23:49:07.873 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-13 23:49:08.455 [main] INFO  Application - Application auto-reloaded in 0.581 seconds.
+2022-04-13 23:49:08.595 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-13 23:49:15.105 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.create_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-13 23:49:38.664 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT BookHistory.create_date FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022
+2022-04-13 23:50:41.597 [main] TRACE Application - {
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/minkyung/Desktop/dev/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "mkkim"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-04-13 23:50:41.734 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-04-13 23:50:42.585 [main] INFO  Application - Application auto-reloaded in 0.849 seconds.
+2022-04-13 23:50:42.765 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-04-13 23:50:45.243 [eventLoopGroupProxy-4-1] DEBUG Exposed - SELECT COUNT(*) FROM BookHistory WHERE STRFTIME('%Y',BookHistory.create_date) = 2022

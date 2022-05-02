@@ -1,0 +1,24 @@
+2022-01-31 00:39:06.106 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 00:39:06.202 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 00:39:06.464 [main] DEBUG Application - port : 8080
+2022-01-31 00:39:06.534 [main] INFO  Application - Application auto-reloaded in 0.329 seconds.
+2022-01-31 00:39:06.814 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080

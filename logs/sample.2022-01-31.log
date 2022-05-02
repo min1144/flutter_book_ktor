@@ -1,0 +1,1591 @@
+2022-01-31 00:40:43.212 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 00:40:43.294 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 00:40:43.540 [main] DEBUG Application - port : 8080
+2022-01-31 00:40:43.605 [main] INFO  Application - Application auto-reloaded in 0.308 seconds.
+2022-01-31 00:40:43.742 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-01-31 00:42:01.533 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 00:42:01.616 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 00:42:01.853 [main] DEBUG Application - port : 8080
+2022-01-31 00:42:01.915 [main] INFO  Application - Application auto-reloaded in 0.298 seconds.
+2022-01-31 00:42:02.055 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-01-31 11:29:56.748 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 11:29:56.845 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 12:11:11.476 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 12:11:11.587 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 12:33:56.955 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 12:33:57.065 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 12:36:36.709 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 12:36:36.802 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 12:36:37.674 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:36:37.676 [main] WARN  Exposed - Transaction attempt #0 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:32)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:28)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:28)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:36:37.678 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:36:37.678 [main] WARN  Exposed - Transaction attempt #1 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:32)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:28)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:28)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:36:37.679 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:36:37.679 [main] WARN  Exposed - Transaction attempt #2 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:32)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:28)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:28)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:39:43.849 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 12:39:43.943 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 12:39:44.862 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:39:44.864 [main] WARN  Exposed - Transaction attempt #0 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:31)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:27)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:27)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:39:44.867 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:39:44.867 [main] WARN  Exposed - Transaction attempt #1 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:31)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:27)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:27)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:39:44.868 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:39:44.869 [main] WARN  Exposed - Transaction attempt #2 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:31)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:27)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:27)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:40:40.217 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 12:40:40.317 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 12:40:40.912 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:40:40.914 [main] WARN  Exposed - Transaction attempt #0 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:31)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:27)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:27)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:40:40.916 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:40:40.916 [main] WARN  Exposed - Transaction attempt #1 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:31)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:27)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:27)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:40:40.918 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:40:40.918 [main] WARN  Exposed - Transaction attempt #2 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:31)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:27)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:27)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:42:09.947 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 12:42:10.050 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 12:42:10.912 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:42:10.913 [main] WARN  Exposed - Transaction attempt #0 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:31)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:27)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:27)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:42:10.915 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:42:10.916 [main] WARN  Exposed - Transaction attempt #1 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:31)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:27)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:27)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:42:10.917 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:42:10.917 [main] WARN  Exposed - Transaction attempt #2 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:31)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:27)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:27)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:42:59.352 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 12:42:59.446 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 12:43:00.018 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:43:00.020 [main] WARN  Exposed - Transaction attempt #0 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:31)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:27)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:27)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:43:00.022 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:43:00.023 [main] WARN  Exposed - Transaction attempt #1 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:31)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:27)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:27)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:43:00.024 [main] DEBUG Exposed - CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+2022-01-31 12:43:00.024 [main] WARN  Exposed - Transaction attempt #2 failed: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error). Statement(s): CREATE TABLE IF NOT EXISTS Cities (id INTEGER  CONSTRAINT pk.cities.id PRIMARY KEY  AUTOINCREMENT, "name" VARCHAR(50) NOT NULL)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:49)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:106)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:92)
+	at org.jetbrains.exposed.sql.Transaction.exec$default(Transaction.kt:91)
+	at org.jetbrains.exposed.sql.SchemaUtils.execStatements(SchemaUtils.kt:248)
+	at org.jetbrains.exposed.sql.SchemaUtils.create(SchemaUtils.kt:255)
+	at org.jetbrains.exposed.sql.SchemaUtils.create$default(SchemaUtils.kt:253)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:31)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:27)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:27)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (near ".": syntax error)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.throwex(DB.java:989)
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method)
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:134)
+	at org.sqlite.core.DB.prepare(DB.java:257)
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:45)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:30)
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25)
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:35)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:241)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205)
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:214)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcConnectionImpl.prepareStatement(JdbcConnectionImpl.kt:63)
+	at org.jetbrains.exposed.sql.statements.Statement.prepared(Statement.kt:24)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:47)
+	... 47 common frames omitted
+2022-01-31 12:43:54.413 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 12:43:54.510 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 12:43:55.238 [main] DEBUG Exposed - INSERT INTO cities ("name") VALUES ('St. Petersburg')
+2022-01-31 12:43:55.240 [main] DEBUG Exposed - INSERT INTO cities ("name") VALUES ('Munich')
+2022-01-31 12:43:55.243 [main] DEBUG Exposed - INSERT INTO cities ("name") VALUES (substr(TRIM('   Prague   '), 1, 2))
+2022-01-31 12:43:55.250 [main] DEBUG Exposed - SELECT cities.id, cities."name" FROM cities WHERE cities.id = 3
+2022-01-31 12:43:55.252 [main] DEBUG Exposed - INSERT INTO users (city_id, id, "name") VALUES (1, 'andrey', 'Andrey')
+2022-01-31 12:43:55.252 [main] DEBUG Exposed - INSERT INTO users (city_id, id, "name") VALUES (2, 'sergey', 'Sergey')
+2022-01-31 12:43:55.253 [main] DEBUG Exposed - INSERT INTO users (city_id, id, "name") VALUES (2, 'eugene', 'Eugene')
+2022-01-31 12:43:55.254 [main] DEBUG Exposed - INSERT INTO users (city_id, id, "name") VALUES (NULL, 'alex', 'Alex')
+2022-01-31 12:43:55.255 [main] DEBUG Exposed - INSERT INTO users (city_id, id, "name") VALUES (NULL, 'smth', 'Something')
+2022-01-31 12:43:55.264 [main] DEBUG Exposed - UPDATE users SET "name"='Alexey' WHERE users.id = 'alex'
+2022-01-31 12:43:55.265 [main] DEBUG Exposed - DELETE FROM users WHERE users."name" LIKE '%thing'
+2022-01-31 12:43:55.266 [main] DEBUG Exposed - SELECT cities.id, cities."name" FROM cities
+2022-01-31 12:43:55.269 [main] DEBUG Exposed - SELECT users."name", cities."name" FROM users INNER JOIN cities ON cities.id = users.city_id WHERE ((users.id = 'andrey') OR (users."name" = 'Sergey')) AND (users.id = 'sergey') AND (users.city_id = cities.id)
+2022-01-31 12:43:55.270 [main] DEBUG Exposed - SELECT users."name", users.city_id, cities."name" FROM users INNER JOIN cities ON cities.id = users.city_id WHERE (cities."name" = 'St. Petersburg') OR (users.city_id IS NULL)
+2022-01-31 12:43:55.272 [main] DEBUG Exposed - SELECT cities."name", COUNT(users.id) FROM cities INNER JOIN users ON cities.id = users.city_id GROUP BY cities."name"
+2022-01-31 12:43:55.274 [main] DEBUG Application - port : 8080
+2022-01-31 12:43:55.330 [main] INFO  Application - Application auto-reloaded in 0.819 seconds.
+2022-01-31 12:43:55.494 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-01-31 23:31:39.145 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 23:31:39.241 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 23:31:40.115 [main] DEBUG Exposed - INSERT INTO book_rating (author, create_date, isbn, summary, title, update_date) VALUES ('저자', (CURRENT_TIMESTAMP), 'isbn', '책요약', '책제목', CURRENT_TIMESTAMP)
+2022-01-31 23:31:40.117 [main] WARN  Exposed - Transaction attempt #0 failed: org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_NOTNULL]  A NOT NULL constraint failed (NOT NULL constraint failed: book_rating.id). Statement(s): INSERT INTO book_rating (author, create_date, isbn, summary, title, update_date) VALUES (?, (CURRENT_TIMESTAMP), ?, ?, ?, CURRENT_TIMESTAMP)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_NOTNULL]  A NOT NULL constraint failed (NOT NULL constraint failed: book_rating.id)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:64)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.statements.Statement.execute(Statement.kt:28)
+	at org.jetbrains.exposed.sql.QueriesKt.insert(Queries.kt:73)
+	at com.example.data.BookRating.insert(Default.kt:59)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:82)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:75)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:75)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_NOTNULL]  A NOT NULL constraint failed (NOT NULL constraint failed: book_rating.id)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.execute(DB.java:863)
+	at org.sqlite.core.DB.executeUpdate(DB.java:904)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.executeUpdate(JDBC3PreparedStatement.java:98)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcPreparedStatementImpl.executeUpdate(JdbcPreparedStatementImpl.kt:26)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.execInsertFunction(InsertStatement.kt:118)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.executeInternal(InsertStatement.kt:126)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.executeInternal(InsertStatement.kt:12)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:62)
+	... 44 common frames omitted
+2022-01-31 23:31:40.120 [main] DEBUG Exposed - INSERT INTO book_rating (author, create_date, isbn, summary, title, update_date) VALUES ('저자', (CURRENT_TIMESTAMP), 'isbn', '책요약', '책제목', CURRENT_TIMESTAMP)
+2022-01-31 23:31:40.121 [main] WARN  Exposed - Transaction attempt #1 failed: org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_NOTNULL]  A NOT NULL constraint failed (NOT NULL constraint failed: book_rating.id). Statement(s): INSERT INTO book_rating (author, create_date, isbn, summary, title, update_date) VALUES (?, (CURRENT_TIMESTAMP), ?, ?, ?, CURRENT_TIMESTAMP)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_NOTNULL]  A NOT NULL constraint failed (NOT NULL constraint failed: book_rating.id)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:64)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.statements.Statement.execute(Statement.kt:28)
+	at org.jetbrains.exposed.sql.QueriesKt.insert(Queries.kt:73)
+	at com.example.data.BookRating.insert(Default.kt:59)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:82)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:75)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:75)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_NOTNULL]  A NOT NULL constraint failed (NOT NULL constraint failed: book_rating.id)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.execute(DB.java:863)
+	at org.sqlite.core.DB.executeUpdate(DB.java:904)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.executeUpdate(JDBC3PreparedStatement.java:98)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcPreparedStatementImpl.executeUpdate(JdbcPreparedStatementImpl.kt:26)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.execInsertFunction(InsertStatement.kt:118)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.executeInternal(InsertStatement.kt:126)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.executeInternal(InsertStatement.kt:12)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:62)
+	... 44 common frames omitted
+2022-01-31 23:31:40.123 [main] DEBUG Exposed - INSERT INTO book_rating (author, create_date, isbn, summary, title, update_date) VALUES ('저자', (CURRENT_TIMESTAMP), 'isbn', '책요약', '책제목', CURRENT_TIMESTAMP)
+2022-01-31 23:31:40.123 [main] WARN  Exposed - Transaction attempt #2 failed: org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_NOTNULL]  A NOT NULL constraint failed (NOT NULL constraint failed: book_rating.id). Statement(s): INSERT INTO book_rating (author, create_date, isbn, summary, title, update_date) VALUES (?, (CURRENT_TIMESTAMP), ?, ?, ?, CURRENT_TIMESTAMP)
+org.jetbrains.exposed.exceptions.ExposedSQLException: org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_NOTNULL]  A NOT NULL constraint failed (NOT NULL constraint failed: book_rating.id)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:64)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:144)
+	at org.jetbrains.exposed.sql.Transaction.exec(Transaction.kt:130)
+	at org.jetbrains.exposed.sql.statements.Statement.execute(Statement.kt:28)
+	at org.jetbrains.exposed.sql.QueriesKt.insert(Queries.kt:73)
+	at com.example.data.BookRating.insert(Default.kt:59)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:82)
+	at com.example.data.DefaultKt$connect$1.invoke(Default.kt:75)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:189)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.access$inTopLevelTransaction$run(ThreadLocalTransactionManager.kt:1)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$inTopLevelTransaction$1.invoke(ThreadLocalTransactionManager.kt:215)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.inTopLevelTransaction(ThreadLocalTransactionManager.kt:214)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt$transaction$1.invoke(ThreadLocalTransactionManager.kt:165)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.keepAndRestoreTransactionRefAfterRun(ThreadLocalTransactionManager.kt:223)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:135)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction(ThreadLocalTransactionManager.kt:132)
+	at org.jetbrains.exposed.sql.transactions.ThreadLocalTransactionManagerKt.transaction$default(ThreadLocalTransactionManager.kt:131)
+	at com.example.data.DefaultKt.connect(Default.kt:75)
+	at com.example.ApplicationKt.module(Application.kt:13)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method.callMethod(CallerImpl.kt:97)
+	at kotlin.reflect.jvm.internal.calls.CallerImpl$Method$Static.call(CallerImpl.kt:106)
+	at kotlin.reflect.jvm.internal.KCallableImpl.call(KCallableImpl.kt:108)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callDefaultMethod$kotlin_reflection(KCallableImpl.kt:159)
+	at kotlin.reflect.jvm.internal.KCallableImpl.callBy(KCallableImpl.kt:112)
+	at io.ktor.server.engine.internal.CallableUtilsKt.callFunctionWithInjection(CallableUtils.kt:119)
+	at io.ktor.server.engine.internal.CallableUtilsKt.executeModuleFunction(CallableUtils.kt:36)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:333)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$launchModuleByName$1.invoke(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartupFor(ApplicationEngineEnvironmentReloading.kt:357)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.launchModuleByName(ApplicationEngineEnvironmentReloading.kt:332)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.access$launchModuleByName(ApplicationEngineEnvironmentReloading.kt:32)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:313)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading$instantiateAndConfigureApplication$1.invoke(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.avoidingDoubleStartup(ApplicationEngineEnvironmentReloading.kt:339)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.instantiateAndConfigureApplication(ApplicationEngineEnvironmentReloading.kt:311)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.createApplication(ApplicationEngineEnvironmentReloading.kt:144)
+	at io.ktor.server.engine.ApplicationEngineEnvironmentReloading.start(ApplicationEngineEnvironmentReloading.kt:278)
+	at io.ktor.server.netty.NettyApplicationEngine.start(NettyApplicationEngine.kt:183)
+	at io.ktor.server.netty.EngineMain.main(EngineMain.kt:26)
+	at com.example.ApplicationKt.main(Application.kt:10)
+Caused by: org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_NOTNULL]  A NOT NULL constraint failed (NOT NULL constraint failed: book_rating.id)
+	at org.sqlite.core.DB.newSQLException(DB.java:1012)
+	at org.sqlite.core.DB.newSQLException(DB.java:1024)
+	at org.sqlite.core.DB.execute(DB.java:863)
+	at org.sqlite.core.DB.executeUpdate(DB.java:904)
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.executeUpdate(JDBC3PreparedStatement.java:98)
+	at org.jetbrains.exposed.sql.statements.jdbc.JdbcPreparedStatementImpl.executeUpdate(JdbcPreparedStatementImpl.kt:26)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.execInsertFunction(InsertStatement.kt:118)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.executeInternal(InsertStatement.kt:126)
+	at org.jetbrains.exposed.sql.statements.InsertStatement.executeInternal(InsertStatement.kt:12)
+	at org.jetbrains.exposed.sql.statements.Statement.executeIn$exposed_core(Statement.kt:62)
+	... 44 common frames omitted
+2022-01-31 23:37:52.396 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 23:37:52.505 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 23:37:53.434 [main] DEBUG Exposed - INSERT INTO book_rating (author, create_date, isbn, summary, title, update_date) VALUES ('저자', (CURRENT_TIMESTAMP), 'isbn', '책요약', '책제목', CURRENT_TIMESTAMP)
+2022-01-31 23:37:53.437 [main] DEBUG Application - port : 8080
+2022-01-31 23:37:53.491 [main] INFO  Application - Application auto-reloaded in 0.984 seconds.
+2022-01-31 23:37:53.633 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-01-31 23:39:56.656 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 23:39:56.761 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 23:39:57.510 [main] DEBUG Exposed - INSERT INTO book_rating (author, create_date, isbn, summary, title, update_date) VALUES ('저자', (CURRENT_TIMESTAMP), 'isbn', '책요약', '책제목', CURRENT_TIMESTAMP)
+2022-01-31 23:39:57.513 [main] DEBUG Application - port : 8080
+2022-01-31 23:39:57.573 [main] INFO  Application - Application auto-reloaded in 0.81 seconds.
+2022-01-31 23:39:57.731 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-01-31 23:44:10.989 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 23:44:11.087 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 23:44:12.042 [main] DEBUG Exposed - INSERT INTO book_rating (author, create_date, isbn, summary, title, update_date) VALUES ('저자', (CURRENT_TIMESTAMP), 'isbn', '책요약', '책제목', CURRENT_TIMESTAMP)
+2022-01-31 23:44:12.046 [main] DEBUG Application - port : 8080
+2022-01-31 23:44:12.103 [main] INFO  Application - Application auto-reloaded in 1.014 seconds.
+2022-01-31 23:44:12.393 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
+2022-01-31 23:47:39.812 [main] TRACE Application - {
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 7
+    "application" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+        "modules" : [
+            # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 8
+            "com.example.ApplicationKt.module"
+        ]
+    },
+    # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 2
+    "deployment" : {
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 3
+        "port" : 8080,
+        # application.conf @ file:/Users/lsh/Desktop/dev/ktor/ktor_sample/build/resources/main/application.conf: 4
+        "test" : "lsh"
+    },
+    # Content hidden
+    "security" : "***"
+}
+
+2022-01-31 23:47:39.914 [main] INFO  Application - Autoreload is disabled because the development mode is off.
+2022-01-31 23:47:40.722 [main] DEBUG Exposed - INSERT INTO book_rating (author, create_date, isbn, summary, title, update_date) VALUES ('저자', (CURRENT_TIMESTAMP), 'isbn', '책요약', '책제목', CURRENT_TIMESTAMP)
+2022-01-31 23:47:40.725 [main] DEBUG Application - port : 8080
+2022-01-31 23:47:40.779 [main] INFO  Application - Application auto-reloaded in 0.864 seconds.
+2022-01-31 23:47:41.073 [DefaultDispatcher-worker-1] INFO  Application - Responding at http://0.0.0.0:8080
